@@ -1,7 +1,17 @@
 {
   "name": "cracker-server",
   "packageManager": "yarn@3.2.3",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start:prod": "node index.js",
+    "start:dev": "yarn ts-node index.ts"
+  },
+  "dependencies": {
+    "fastify": "^4.5.3"
+  },
   "devDependencies": {
+    "@types/node": "^18.7.15",
+    "ts-node": "^10.9.1",
     "typescript": "^4.8.2"
   }
 }

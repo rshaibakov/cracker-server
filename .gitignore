@@ -14,4 +14,7 @@
 .vscode/
 
 # Build
-index.js
+build/
+
+# Other files
+*.todo

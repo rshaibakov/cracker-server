@@ -7,7 +7,7 @@ server.get('/ping', async (request, reply) => {
 })
 
 server.listen({ port: 8080 }, (err, address) => {
-  if (err) {
+  if (err != null) {
     console.error(err)
     process.exit(1)
   }

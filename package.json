@@ -5,8 +5,9 @@
     "build": "tsc -p tsconfig.json",
     "start:prod": "node index.js",
     "start:dev": "yarn ts-node ./src/index.ts",
-    "lint": "eslint ./src --ext .ts",
-    "lint:type": "tsc --pretty"
+    "lint": "yarn lint:script && yarn lint:type",
+    "lint:script": "eslint ./src --ext .ts",
+    "lint:type": "tsc --pretty --noEmit"
   },
   "dependencies": {
     "fastify": "^4.5.3"

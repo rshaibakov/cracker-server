@@ -42,6 +42,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:18.7.15"],\
             ["@typescript-eslint/eslint-plugin", "virtual:c568a8bcd542f019671d08d61e27e563241dee5e0162a8bbe7ce6cf71f8904af1239a4442358d6b038f9aafab6dc70006d47ae7fc8cd975eaa902213ffaedb5f#npm:5.36.2"],\
             ["@typescript-eslint/parser", "virtual:c568a8bcd542f019671d08d61e27e563241dee5e0162a8bbe7ce6cf71f8904af1239a4442358d6b038f9aafab6dc70006d47ae7fc8cd975eaa902213ffaedb5f#npm:5.36.2"],\
+            ["commitizen", "npm:4.2.5"],\
             ["conventional-changelog-conventionalcommits", "npm:5.0.0"],\
             ["cz-conventional-changelog", "npm:3.3.0"],\
             ["eslint", "npm:8.23.0"],\
@@ -50,6 +51,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-n", "virtual:c568a8bcd542f019671d08d61e27e563241dee5e0162a8bbe7ce6cf71f8904af1239a4442358d6b038f9aafab6dc70006d47ae7fc8cd975eaa902213ffaedb5f#npm:15.2.5"],\
             ["eslint-plugin-promise", "virtual:c568a8bcd542f019671d08d61e27e563241dee5e0162a8bbe7ce6cf71f8904af1239a4442358d6b038f9aafab6dc70006d47ae7fc8cd975eaa902213ffaedb5f#npm:6.0.1"],\
             ["fastify", "npm:4.5.3"],\
+            ["husky", "npm:8.0.1"],\
             ["ts-node", "virtual:c568a8bcd542f019671d08d61e27e563241dee5e0162a8bbe7ce6cf71f8904af1239a4442358d6b038f9aafab6dc70006d47ae7fc8cd975eaa902213ffaedb5f#npm:10.9.1"],\
             ["typescript", "patch:typescript@npm%3A4.8.2#~builtin<compat/typescript>::version=4.8.2&hash=a1c5e5"]\
           ],\
@@ -1736,6 +1738,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:18.7.15"],\
             ["@typescript-eslint/eslint-plugin", "virtual:c568a8bcd542f019671d08d61e27e563241dee5e0162a8bbe7ce6cf71f8904af1239a4442358d6b038f9aafab6dc70006d47ae7fc8cd975eaa902213ffaedb5f#npm:5.36.2"],\
             ["@typescript-eslint/parser", "virtual:c568a8bcd542f019671d08d61e27e563241dee5e0162a8bbe7ce6cf71f8904af1239a4442358d6b038f9aafab6dc70006d47ae7fc8cd975eaa902213ffaedb5f#npm:5.36.2"],\
+            ["commitizen", "npm:4.2.5"],\
             ["conventional-changelog-conventionalcommits", "npm:5.0.0"],\
             ["cz-conventional-changelog", "npm:3.3.0"],\
             ["eslint", "npm:8.23.0"],\
@@ -1744,6 +1747,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-n", "virtual:c568a8bcd542f019671d08d61e27e563241dee5e0162a8bbe7ce6cf71f8904af1239a4442358d6b038f9aafab6dc70006d47ae7fc8cd975eaa902213ffaedb5f#npm:15.2.5"],\
             ["eslint-plugin-promise", "virtual:c568a8bcd542f019671d08d61e27e563241dee5e0162a8bbe7ce6cf71f8904af1239a4442358d6b038f9aafab6dc70006d47ae7fc8cd975eaa902213ffaedb5f#npm:6.0.1"],\
             ["fastify", "npm:4.5.3"],\
+            ["husky", "npm:8.0.1"],\
             ["ts-node", "virtual:c568a8bcd542f019671d08d61e27e563241dee5e0162a8bbe7ce6cf71f8904af1239a4442358d6b038f9aafab6dc70006d47ae7fc8cd975eaa902213ffaedb5f#npm:10.9.1"],\
             ["typescript", "patch:typescript@npm%3A4.8.2#~builtin<compat/typescript>::version=4.8.2&hash=a1c5e5"]\
           ],\
@@ -3167,6 +3171,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/human-signals-npm-2.1.0-f75815481d-b87fd89fce.zip/node_modules/human-signals/",\
           "packageDependencies": [\
             ["human-signals", "npm:2.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["husky", [\
+        ["npm:8.0.1", {\
+          "packageLocation": "./.yarn/cache/husky-npm-8.0.1-85fede8470-943a73a13d.zip/node_modules/husky/",\
+          "packageDependencies": [\
+            ["husky", "npm:8.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\

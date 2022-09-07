@@ -7,7 +7,14 @@
     "start:dev": "yarn ts-node ./src/index.ts",
     "lint": "yarn lint:script && yarn lint:type",
     "lint:script": "eslint ./src --ext .ts",
-    "lint:type": "tsc --pretty --noEmit"
+    "lint:type": "tsc --pretty --noEmit",
+    "commit": "yarn dlx cz",
+    "release": "yarn dlx semantic-release"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   },
   "dependencies": {
     "fastify": "^4.5.3"
@@ -22,6 +29,7 @@
     "@types/node": "^18.7.15",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.36.2",
+    "commitizen": "^4.2.5",
     "conventional-changelog-conventionalcommits": "^5.0.0",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.0.1",
@@ -29,6 +37,7 @@
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-n": "^15.0.0",
     "eslint-plugin-promise": "^6.0.0",
+    "husky": "^8.0.1",
     "ts-node": "^10.9.1",
     "typescript": "*"
   }

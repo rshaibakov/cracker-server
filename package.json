@@ -8,7 +8,7 @@
     "lint": "yarn lint:script && yarn lint:type",
     "lint:script": "eslint ./src --ext .ts",
     "lint:type": "tsc --pretty --noEmit",
-    "commit": "yarn dlx cz",
+    "commit": "cz",
     "release": "yarn dlx semantic-release"
   },
   "husky": {

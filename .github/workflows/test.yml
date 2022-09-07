@@ -20,8 +20,9 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
+    - run: yarn set version 3.x
     - name: Install dependencies
-      run: yarn --frozen-lockfile
+      run: yarn install --immutable --immutable-cache --check-cache
     - name: Build project
       run: yarn build
     - name: Lint project

@@ -17,7 +17,8 @@
     }
   },
   "dependencies": {
-    "fastify": "^4.5.3"
+    "fastify": "^4.5.3",
+    "mongoose": "^6.6.0"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",

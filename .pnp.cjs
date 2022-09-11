@@ -45,6 +45,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["commitizen", "npm:4.2.5"],\
             ["conventional-changelog-conventionalcommits", "npm:5.0.0"],\
             ["cz-conventional-changelog", "npm:3.3.0"],\
+            ["dotenv", "npm:16.0.2"],\
             ["eslint", "npm:8.23.0"],\
             ["eslint-config-standard-with-typescript", "virtual:c568a8bcd542f019671d08d61e27e563241dee5e0162a8bbe7ce6cf71f8904af1239a4442358d6b038f9aafab6dc70006d47ae7fc8cd975eaa902213ffaedb5f#npm:22.0.0"],\
             ["eslint-plugin-import", "virtual:c568a8bcd542f019671d08d61e27e563241dee5e0162a8bbe7ce6cf71f8904af1239a4442358d6b038f9aafab6dc70006d47ae7fc8cd975eaa902213ffaedb5f#npm:2.26.0"],\
@@ -1741,6 +1742,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["commitizen", "npm:4.2.5"],\
             ["conventional-changelog-conventionalcommits", "npm:5.0.0"],\
             ["cz-conventional-changelog", "npm:3.3.0"],\
+            ["dotenv", "npm:16.0.2"],\
             ["eslint", "npm:8.23.0"],\
             ["eslint-config-standard-with-typescript", "virtual:c568a8bcd542f019671d08d61e27e563241dee5e0162a8bbe7ce6cf71f8904af1239a4442358d6b038f9aafab6dc70006d47ae7fc8cd975eaa902213ffaedb5f#npm:22.0.0"],\
             ["eslint-plugin-import", "virtual:c568a8bcd542f019671d08d61e27e563241dee5e0162a8bbe7ce6cf71f8904af1239a4442358d6b038f9aafab6dc70006d47ae7fc8cd975eaa902213ffaedb5f#npm:2.26.0"],\
@@ -1994,6 +1996,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["dot-prop", "npm:5.3.0"],\
             ["is-obj", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["dotenv", [\
+        ["npm:16.0.2", {\
+          "packageLocation": "./.yarn/cache/dotenv-npm-16.0.2-80af4821b1-ca8f9ca2d6.zip/node_modules/dotenv/",\
+          "packageDependencies": [\
+            ["dotenv", "npm:16.0.2"]\
           ],\
           "linkType": "HARD"\
         }]\

@@ -1,4 +1,8 @@
+import dotenv from 'dotenv'
 import fastify from 'fastify'
+
+dotenv.config()
+console.log(process.env)
 
 const server = fastify()
 

@@ -16,5 +16,11 @@
 # Build
 build/
 
+# Env
+.env*
+
+# DB
+db/data
+
 # Other files
 *.todo

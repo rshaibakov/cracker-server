@@ -1,0 +1,11 @@
+version: '3.1'
+
+services:
+  mongo:
+    image: mongo:latest
+    ports:
+      - 27017:27017
+    env_file: .env
+    volumes:
+      - /home/byatash/develop/projects/cracker-server/db/data:/data/db
+      - /home/byatash/develop/projects/cracker-server/db/init.js:/docker-entrypoint-initdb.d/init.js:ro
